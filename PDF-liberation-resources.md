@@ -120,8 +120,6 @@ Enterprise-Level (Cost > $1000) Extract Transfer Load (ETL) Solutions that Direc
 
 ## Challenge descriptions
 
-## Challenge descriptions
-
 - [Comprehensive Annual Financial Reports](challenges/cafr-challenge.md)
 - [House of Representatives Financial Disclosures (OpenSecrets.org)](challenges/house-financial-disclosures.md)
 - [IRS Form 990 – Not-for-Profit Organization Reports](challenges/irs-form-990.md)
@@ -129,3 +127,17 @@ Enterprise-Level (Cost > $1000) Extract Transfer Load (ETL) Solutions that Direc
 - [Unlocking U.S. Foreign Aid Reports Database](challenges/usaid-challenge.md)
 - [Federal Government Federal Communications Commission Challenge](challenges/fcc-daily-releases.md)
 - [NYCpedia challenge(s)](challenges/NYCpedia-challenges.md)
+
+
+
+
+## What we would like to capture from each team
+
+1. The source PDF file(s) itself
+2. What type of PDF is it (tabular data, images, structured text, etc)
+3. What the extraction goal is (what are we trying to get out of that and into what format)
+4. Each tool that was attempted and how it was attempted
+5. What the results were with that tool/particular attempt
+6. What would have to be changed/added to the tool or process to achieve success (#3)...or if it actually worked, and where the results are
+7. Contact info (names/email addresses/twitter handles/organizations) for each challenge group.
+
