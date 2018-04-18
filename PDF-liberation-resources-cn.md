@@ -249,7 +249,6 @@ It's a print format--the point is to tell a printer what things to print where. 
 
 
 
-
 ## Learn More About the PDF Format
 
 - [Official Adobe PDF reference](http://www.adobe.com/devnet/pdf/pdf_reference.html)
