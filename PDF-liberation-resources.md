@@ -2,6 +2,23 @@
 
 A list of tools and resources for working with PDF files. Adapted from https://pdfliberation.wordpress.com/
 
+
+
+
+
+##  extract tabular data from PDF
+
+
+- [Tabula-Java](https://github.com/tabulapdf/tabula-java): the scriptable engine behind Tabula, via OpenCollective.
+- [pdfplumber](https://github.com/jsvine/pdfplumber): a high-level Python interface to pdfminer, created by Jerm-Sing-Vine
+- [PDFTables.com](https://pdftables.com/) - a cloud service from the Sensible Code Company
+- [CometDocs](https://www.cometdocs.com/) - a cloud service with PDF-to-XLS functionality
+- [ABBYY FineReader Pro for Mac](https://www.abbyy.com/en-us/finereader/pro-for-mac/) - What I personally use. Costs money. No idea if it differs via cross-platform. Has no automatable-interface. But very accurate and dependable.
+- [ZamZar](http://www.zamzar.com/): Provides pdf-to-table functionality at the level of Google Drive, which is to say, not much at all. Might include it just as a baseline.
+- [pdftotext](https://poppler.freedesktop.org/): part of the Poppler suite. Its `-layout` option provides a conversion that attempts to visually emulate the original PDF, but the result is not delimited data.
+
+
+
 ## Open source PDF technologies
 
 - [Apache PDFBox](http://pdfbox.apache.org/) - General purpose PDF library written in Java.
