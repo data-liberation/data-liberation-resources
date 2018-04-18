@@ -1,0 +1,60 @@
+Incident entry in CAD
+""
+""
+""
+""
+""
+Incident search field to generate reports
+This list of all categories to narrow down a search:,
+"",
+Agencies,Primary Unit
+Agency Confidential,Priority
+Agency Type,Receive Time
+Alert ID,Respon EMS Agency
+Apt,Respon Fire Agency
+Area,Respon Police Agency
+Assc Incident #1,Response Type
+Assc Incident #2,Run/Stn Card
+Assc Incident #3,Special Circumstances
+Associated Person,Street Name
+Associated Person DL,Time
+Beat,Total OnScene Time
+Call Taker,Tow District
+Caller Address,Type
+Caller Apt,Vehicle Color 1
+Caller City,Vehicle Color 2
+Caller Location,Vehicle License
+Caller Name,Vehicle Make
+Caller Phone #,Vehicle Model
+Caller State,Vehicle State
+Case Number,Vehicle Year
+City,Weapon
+Clear Time,
+Cross Street,
+Date,
+Description,
+Dispatch Time,
+Dispatcher,
+Disposition,
+DL Status,
+E911 Call Confidence,
+E911 Call Uncertain.,
+Enroute Time,
+Fire Alarm Level,
+Hold for Unit,
+House Number,
+Incident Source,
+Incident Status,
+Include in Bulletin,
+Include in Media Bull,
+Latitude,
+Location,
+Longitude,
+Map Grid,
+Officer,
+Onscene Time,
+Place,
+Police/Fire (P/F),
+Premise Hazard,
+"After the search criteria has been selected and a report is generated, you then have options of what"
+information you want displayed on the report.

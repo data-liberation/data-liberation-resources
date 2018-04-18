@@ -1,7 +1,6 @@
 # PDF Extraction Resources
 
-A list of tools and resources for working with PDF files. Adapted from https://pdfliberation.wordpress.com/
-
+A list of tools and resources for working with PDF files.
 
 
 
@@ -19,7 +18,29 @@ A list of tools and resources for working with PDF files. Adapted from https://p
 
 
 
+
+## 
+
 ## Open source PDF technologies
+
+
+- [PDFPlumber]((https://github.com/jsvine/pdfplumber)
+PDFPlumber is a Python library and command-line tool for extracting information from PDFs. Both tools provide granular information about each character, rectangle, and line. The library also has Tabula-style features for extracting tables and text.
+
+- [Homepage](https://github.com/jsvine/pdfplumber)
+- Requirements: `python` and [`pip`](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip)
+- Installation: `pip install pdfplumber`
+
+
+
+- [Google vision API](https://cloud.google.com/vision/?utm_source=google&utm_medium=cpc&utm_campaign=2015-q1-cloud-na-gcp-skws-freetrial-en&gclid=CNnhpLWNu9ICFVFahgodbpYF1Q) . Note that 'in-situ' extraction is a little different (lots of it is based on stroke-width transform, maybe?)
+
+- "A set of tools for extracting tables from PDF files helping to do data mining on (OCR-processed) scanned documents." https://github.com/WZBSocialScienceCenter/pdftabextract
+
+--> related: https://github.com/WZBSocialScienceCenter/pdf2xml-viewer
+
+
+
 
 - [Apache PDFBox](http://pdfbox.apache.org/) - General purpose PDF library written in Java.
 
@@ -58,6 +79,26 @@ A list of tools and resources for working with PDF files. Adapted from https://p
 - [GOCR](http://jocr.sourceforge.net/) - "GOCR is an OCR (Optical Character Recognition) program, developed under the GNU Public License. It converts scanned images of text back to text files."
 
 ## OCR Technologies:
+
+
+
+### GUI (Free)
+
+- [DocumentCloud](https://www.documentcloud.org/home) (if you're willing to wait in queue)
+- [Overview](https://blog.overviewdocs.com/author/overview/) will now give you searchable pdfs back.
+- [CometDocs](https://www.cometdocs.com/user/subscriptions) (web-based, [freemium](https://www.cometdocs.com/user/subscriptions))
+
+
+### GUI (Paid)
+
+- [ABBYY Fine Reader](http://www.abbyy.com/finereader/) ($120 Mac / $170 Windows). Here's a [scanned doc](examples/klamath_elex/2010NovPrecinct.pdf) released by an Oregon county gov; it's [much better](examples/klamath_elex/2010NovPrecinct_scanned.pdf) with abby. 
+- [Adobe Acrobat DC](https://acrobat.adobe.com/us/en/how-to/ocr-software-convert-pdf-to-text.html) (free trial / $15/mo / $450 purchase)
+- [Cogniview PDF2XL](https://www.cogniview.com/) Windows only. Free trial. OCR edition: $299; "Enterprise":$399.
+- [Datawatch Monarch](http://www.datawatch.com/monarch13/) Specialty tool for structured data extraction; dunno if OCR is included. Free "personal" edition with 'limited imports and exports'; 30-day free trial for enterprise edition. They [claim](http://finance.yahoo.com/news/datawatch-makes-everyone-big-data-131101026.html)  Classic Edition ($895 per user per year) and Complete Edition ($1,595 per user per year).  
+
+- [Abby Flexicapture](http://www.abbyy.com/flexicapture/).  Believe that Abby charges less in other countries, and there's an industry of document conversion services in other countries. Price varies by country. (~ $24K) 
+
+
 
 - [Tesseract](https://code.google.com/p/tesseract-ocr/) - Open source OCR library. This tool does not work directly with PDFs, but a shell script or package can be used to convert a PDF to a TIFF which can be analyzed with Tesseract.
     - A [Java interface](http://sourceforge.net/projects/tess4j/) to Tesseract is available.
@@ -158,3 +199,33 @@ Enterprise-Level (Cost > $1000) Extract Transfer Load (ETL) Solutions that Direc
 6. What would have to be changed/added to the tool or process to achieve success (#3)...or if it actually worked, and where the results are
 7. Contact info (names/email addresses/twitter handles/organizations) for each challenge group.
 
+
+
+
+## The One Weird Thing You Need To Know About PDFs
+
+    It's a print format--the point is to tell a printer what things to print where. There's not much more order than that. But for our purposes we'll talk about three types of PDFs:
+
+        "Text-based PDFs": The document has characters, fonts and font sizes, and information about where to place them stored in the document in a format that (a program) can read. Created by programs that can save to pdf directly. Dragging the mouse will highlight text.
+
+        "Image-based PDFs": The document has images of pages, but not words themselves. Typically the result of scanning. You can't highlight text.
+
+        "Embedded-text PDFs": The document has images of pages, but there's invisible text 'attached' to the document, so you can select text. Typically created by scanners that also run OCR. Sticky wicket: should you assume the attached text is better than what you'd get by running tesseract? Not necessarily (but it probably is...)
+
+
+
+## Learn More About the PDF Format
+
+- [Official Adobe PDF reference](http://www.adobe.com/devnet/pdf/pdf_reference.html)
+- [PDF Explained](http://shop.oreilly.com/product/0636920021483.do) (O'Reilly)
+
+
+
+
+## reference 
+
+* http://okfnlabs.org/blog/2016/04/19/pdf-tools-extract-text-and-data-from-pdfs.html
+
+* https://pdfliberation.wordpress.com/
+
+* https://github.com/jsfenfen/pdf17
