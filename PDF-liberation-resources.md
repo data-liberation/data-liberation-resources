@@ -116,7 +116,9 @@ Extract meaningful content from pdf and psd file, such as texts and images both 
 - [DocumentCloud](https://www.documentcloud.org/home) (if you're willing to wait in queue)
 - [Overview](https://blog.overviewdocs.com/author/overview/) will now give you searchable pdfs back.
 - [CometDocs](https://www.cometdocs.com/user/subscriptions) (web-based, [freemium](https://www.cometdocs.com/user/subscriptions))
-- [pdfconvertme](https://github.com/wanghaisheng/pdfconvertme-public)
+- [pdfconvertme](https://github.com/wanghaisheng/pdfconvertme-public)       
+- [CaptureFast](https://capturefast.com/)CaptureFast allows users to extract valuable information from physical or digital documents via machine print character recognition. 
+
 
 
 ### GUI (Paid)
